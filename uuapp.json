@@ -1,0 +1,17 @@
+{
+  "product": "uu_ritr_frontendg01",
+  "version": "0.1.0",
+  "license": "License Commercial",
+  "description": {
+    "en": "",
+    "cs": ""
+  },
+  "devkit": {
+    "development": {
+      "appBoxLocationUri": "----- VALUE REQUIRED -----",
+      "appDeploymentUri": null
+    }
+  },
+  "uu_ritr_frontendg01-hi": {},
+  "uu_ritr_frontendg01-server": {}
+}
