@@ -6,6 +6,9 @@
       "schemaMap": {
         "ritrFrontend": {
           "realization": "dao/RitrFrontendMongo"
+        },
+        "ticket": {
+          "realization": "dao/TicketMongo"
         }
       }
     }

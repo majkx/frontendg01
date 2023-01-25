@@ -25,6 +25,26 @@
         "realization": "index.html",
         "httpMethod": "GET",
         "type": "UVE"
+      },
+      "ticket/create": {
+        "realization": "api/controllers/TicketController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "ticket/get": {
+        "realization": "api/controllers/TicketController.get",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "ticket/list": {
+        "realization": "api/controllers/TicketController.list",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "ticket/delete": {
+        "realization": "api/controllers/TicketController.delete",
+        "httpMethod": "POST",
+        "type": "CMD"
       }
     }
   }

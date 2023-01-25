@@ -52,17 +52,7 @@ let Home = createVisualComponent({
     return (
       <div {...attrs}>
         <RouteBar />
-        <WelcomeRow left={<Plus4U5Elements.PersonPhoto size="xl" borderRadius="none" />}>
-          <Uu5Elements.Text category="story" segment="heading" type="h2">
-            <Lsi import={importLsi} path={["Home", "welcome"]} />
-          </Uu5Elements.Text>
-          {identity && (
-            <Uu5Elements.Text category="story" segment="heading" type="h2">
-              {identity.name}
-            </Uu5Elements.Text>
-          )}
-        </WelcomeRow>
-        <WelcomeRow left={<Uu5Elements.Icon icon="mdi-human-greeting" className={Css.icon()} />}>
+        <WelcomeRow left={"HHaha"}>
           <Uu5Elements.Text category="story" segment="body" type="common">
             <Lsi import={importLsi} path={["Home", "intro"]} />
           </Uu5Elements.Text>
@@ -77,6 +67,7 @@ let Home = createVisualComponent({
             <Lsi import={importLsi} path={["Home", "serverSide"]} />
           </Uu5Elements.Text>
         </WelcomeRow>
+        {/*<Uu5Elements.Calendar selectionMode={"range"} direction={"vertical"} />*/}
       </div>
     );
     //@@viewOff:render

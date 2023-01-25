@@ -21,6 +21,16 @@ const Calls = {
   //   return Calls.call("get", commandUri, dtoIn);
   // },
 
+  ticketCreate(dtoInData){
+    const commandUri = Calls.getCommandUri("ticket/create");
+    return Calls.call("post", commandUri, dtoInData);
+  },
+
+  ticketsList() {
+    const commandUri = Calls.getCommandUri("ticket/list");
+    return Calls.call("get", commandUri);
+  },
+
   loadIdentityProfiles() {
     const commandUri = Calls.getCommandUri("sys/uuAppWorkspace/initUve");
     return Calls.call("get", commandUri);
